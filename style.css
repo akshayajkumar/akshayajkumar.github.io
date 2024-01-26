@@ -1,0 +1,48 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20;
+    background-color: #ffffff;
+}
+header{
+    background-color: #0d4fea;
+    color: #e7e8eb;
+    text-align: left;
+    padding: 1em;
+    
+}
+#akshaya{
+    text-align: right;
+ }
+section {
+display: flex;
+justify-content: space-between;
+padding: 1em;
+}
+
+.left-section, .right-section {
+flex: -1;
+}
+
+.right-section {
+padding-left:3em;
+border-left: 3px solid #180808;
+background-color: #ffffff;
+}
+
+h2 {
+color: #050f72;
+}
+
+table {
+width: 100%;
+}
+
+table, th, td {
+border-collapse: collapse;
+}
+
+th, td {
+padding: 10px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+}
